@@ -2,6 +2,7 @@
 
 RespondEZ is a platform that streamlines the process of wedding invitations. Our platform handles the communication between event host and attendee to ensure a stress-free experience from both parties.
 
+CRUD
 Front end done in React.js. Routing handled with Express.js. Back end done with Node.js, MongoDB (mLab), and Mongoose.
 
 ### Usage
