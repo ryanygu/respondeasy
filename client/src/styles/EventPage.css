@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono|Rochester|Lora');
+
+
+#card{
+    /* position: fixed; */
+    margin-top: 100px;
+    /* background-color: aliceblue; */
+    text-align: center;
+
+}
+
+#announcements{
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #FFF3F3;
+    overflow-y: scroll;
+    height: 88vh;
+
+}
+
+.announcementContainer{
+    border-radius: 50%;
+}
+
+.post {
+    background: #FFFFFF;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+  }
+
+/* .content {
+    margin-left: 5px;
+} */
+
+#feed{
+    padding: 10px;
+}
+
+.announcements{
+    font-family: 'Nova Mono';
+    font-size: 45px;
+    color: gray;
+    font-weight: normal;
+}
+
+#names{
+    font-family: 'Rochester', cursive;
+    font-size: 75px;
+    font-weight: normal;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.description{
+    font-family: 'Lora', cursive;
+    font-size: 18px;
+}
+
+.description span{
+    font-size: 25px;
+}
+
+.rsvp{
+    top: 50px;
+}
+.buttons {
+    margin-top: 20px;
+}

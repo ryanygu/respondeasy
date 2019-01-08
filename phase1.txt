@@ -1,0 +1,44 @@
+# team33 phase1.txt
+
+Usage:
+
+1. cd into frontend folder
+2. run 'npm install'
+3. run 'npm start'
+
+Our web app can be loaded through 'localhost:3000' or 'index.html'.
+
+Features:
+
+Note: Login/Register currently does not work. The pages are up, but they don't do anything.
+You will be autologged in to the 'admin' account upon arrival. To see the register page, click the avatar icon in the header and click 'Logout'.
+Tou will be redirected to the landing page. You will be able to see the signup page from here. To return to the main app, click the 'WEDDINGAPP' button in the header.
+
+
+Use case (host):
+
+The host of the event want to use our app because it is an easy way to manage their event.
+This user can create an event by:
+- Creating their own account. (for demo purposes, use the autologged in account 'admin')
+- Click 'CREATE' on the header.
+- Fill out the form, which asks for the lucky couple, the time and date, and food options.
+- They will then be redirected to their event dashboard.
+- Here, the host can view details regarding their event.
+- On the 'Overview' page, they will be able to edit the event details.
+- Here, the host can see their event code. This will be the code they will send in their email invite.
+- On the 'Announcements' page, they will be able to see and create new announcements.
+- On the 'Guest List' page, they will be able to see detailed lists regarding their invited guests.
+- They will be able to accept or deny people entry into their event, in case some malicious person gets a hold of the event code.
+
+Use case (guest):
+
+A guest of a wedding would receive an email invite with an invite code. 
+They will use this code to inform the host whether or not they are coming. 
+This user can get there by:
+- Creating their own account. (for demo purposes, use the autologged in account 'admin')
+- Click 'JOIN' on the header.
+- Enter the code given in the email invite, and accept or decline your invitation.
+- Once a user joins an event as a guest (or declines the invitation), they will be redirected back to the dashboard.
+- Here, a user can see all of their upcoming events.
+- Clicking one of them allows you to see the event details.
+

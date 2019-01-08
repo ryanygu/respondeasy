@@ -1,0 +1,47 @@
+# team33 phase2.txt
+
+Usage:
+
+1. cd into 'team33' folder
+2. run 'npm install' (for both client and server)
+3. run 'npm client-install'
+4. run 'mkdir mongo-data'
+5. run 'mongod --dbpath ./mongo-data'
+6. run 'npm run dev'
+
+Our web app can be loaded through 'localhost:3000' or 'index.html'.
+
+Features:
+There is one type of user. Every user can be a normal user or an admin of their own events. 
+When you login, you will be presented to the dashboard page with a list of upcoming events and my events.
+
+As a user of this application, you will be able to edit your profile when you click the icon on the top right.
+
+Bug: There is a small bug with updating contents in the dashboard. 
+     After a user created an event or joins an event or edits profile, they need to refresh the browser and re-login to see their changes.
+
+Use case (host):
+The host of the event want to use our app because it is an easy way to manage their event.
+This user can create an event by:
+- Creating their own account.
+- Click 'CREATE' on the header.
+- Fill out the form, which asks for the lucky couple, the time and date, and food options.
+- They will then be redirected to their event dashboard, as a host.
+    - In the 'Overview' page, as the host of this event, you will be displayed of the Event Code. This code will be used for other users to join this event. 
+        You can also edit the event information in this Overview page.
+    - In the 'Announcements' page, you will be able to post announcements for your invited guests. These announcements will be displayed in every guests' view 
+    - In the 'Guest List' page, you will be able to see a list of guests who have Confirmed, Pending, Declied.
+
+
+Use case (guest):
+
+A guest of a wedding would receive an email invite with an invite code. 
+They will use this code to inform the host whether or not they are coming. 
+This user can get there by:
+- Creating their own account. 
+- Click 'JOIN' on the header.
+- Enter the code given in the email invite, and accept or decline your invitation.
+- Once a user joins an event as a guest (or declines the invitation), they will be redirected back to the dashboard.
+- Here, a user can see all of their upcoming events.
+- Clicking one of them allows you to see the event details.
+

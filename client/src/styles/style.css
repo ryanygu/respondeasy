@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+.logoTitle {
+    font-family: 'Nova Mono' !important;
+    font-size: 30px !important;
+}
+
+.eventCard {
+    background-color: #FAFAFA !important;
+}

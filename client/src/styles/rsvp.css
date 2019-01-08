@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Rochester');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+.rsvp {
+  display: block;
+  text-align: center;
+}
+
+.rsvpTitle {
+  font-size: 85px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.marryNames {
+  font-family: Rochester;
+  font-size: 120px;
+  color: #404040;
+  margin-bottom: -60px;
+}
+
+.marryNames span {
+  color: #e85c5c;
+}
+
+.b1 {
+  float: right;
+}
+.b2 {
+  float: left;
+}
+
+.helpInfo {
+  color: gray;
+}

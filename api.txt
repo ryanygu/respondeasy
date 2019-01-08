@@ -1,0 +1,41 @@
+/user
+-POST : Route for adding a new user (signup)
+-GET : Route for getting all users (display all user for admin)
+
+/events
+-POST : Make a new event
+-GET : Route for getting all events (display all events for admin)
+
+/users/:user_id
+-POST : Add this event to my event list (call /event POST prior to this call)
+-GET : Route for getting user object
+-PATCH : Route for changing user object
+
+/events/:event_id
+-POST: adding announcements 
+-GET : Route for getting information for one event
+-PATCH : Route for changing event information 
+-DELETE : Route for deleting an event; when it ends or user deletes
+
+/code/event_code:
+-GET : Get the corresponding the event id given the code
+
+/users/:user_id/:event_id
+POST : Route for adding an event to this user (joining existing event)
+PATCH : Route for editing user's EventInvitation info
+DELETE :  Route for deleting an event for this user (deletes from both my events to upcoming events)
+
+
+
+/events/:event_id/:user_id/
+-POST : add user to this event's guest list (pending=-1, declined=0, accepted=1)
+-PATCH : move this user from pending to [declined(flag=0) or accepted(flag=1)]
+	[body from and to flag]
+DELETE : delete this user from this event (for admin)
+
+
+** NOTE TO FRONT-END CHANGES:
+/SignUp: take out allergies field
+/Dashboard: "Past Events" -> "My Events" and "Details" -> "Edit" (event/eventid/host)
+/create (event creation): need to add locations field 
+/join: delete the RSVP section
