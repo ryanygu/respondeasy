@@ -3,7 +3,7 @@
 RespondEZ is a platform that streamlines the process of wedding invitations. Our platform handles the communication between event host and attendee to ensure a stress-free experience from both parties.
 
 CRUD
-Front end done in React.js. Routing handled with Express.js. Back end done with Node.js, MongoDB (mLab), and Mongoose.
+Front end done in pure React.js. Routing handled with Express.js. Basic CRUD back end done with Node.js, MongoDB (mLab), and Mongoose.
 
 ### Usage
 
@@ -19,14 +19,15 @@ npm run client-install
 npm run dev 
 ```
 Then navigate to `localhost:3000` in the browser of your choice.
+
 Note: only tested on Google Chrome.
 
 ### Features
 
 - Hosts
-  - test
+  - todo
 - Guests
-  - test
+  - todo
 
 ### Todo
 
